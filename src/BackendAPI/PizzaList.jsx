@@ -56,7 +56,7 @@ const PizzaList = (props) => {
                             <p>{pizza.description}</p>
                             {/* react 는 a 태그 대신에 Link 태그를 이용하여 이동하는 경로 설정 */}
                             {/* 경로 이동의 경우 react-router-dom 을 설치하여 Link를 사용할 수 있음 */}
-                            <Link to={`/pizza/detail/${pizza.id}`}>
+                            <Link to={`/pizzas/detail/${pizza.id}`}>
                                 <button>상세보기</button>
                             </Link>
                         </div>
